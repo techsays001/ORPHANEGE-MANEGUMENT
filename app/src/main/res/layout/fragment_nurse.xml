@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+    <EditText
+        android:id="@+id/wdate"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:drawableStart="@drawable/datee"
+        android:drawableLeft="@drawable/datee"
+        android:padding="10dp"
+        android:hint="date"
+        android:focusable="false"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/bt"
+        android:layout_marginTop="165dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+    <EditText
+        android:id="@+id/nc"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt"
+        android:inputType="text"
+        android:hint="number_of_cattles"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nw"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt"
+        android:inputType="text"
+        android:hint="	number_of_workers"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/enter"
+        android:padding="10dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nf"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="number_of_farms"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/wu"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt"
+
+        android:padding="10dp"
+        android:text="Upload"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+</LinearLayout>
